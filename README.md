@@ -1,7 +1,6 @@
 # Tynda | Frontend
 
 ## Settings
-***
 Vue CLI
 
 *Vue 3, Babel, Progressive Web App(PWA), Router(history mode), Sass/Scss, Esling with Error prevention only,
