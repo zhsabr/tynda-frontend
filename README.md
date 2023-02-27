@@ -1,4 +1,11 @@
-# frontend
+# Tynda | Frontend
+
+## Settings
+***
+_Vue CLI_
+
+*Vue 3, Babel, Progressive Web App(PWA), Router(history mode), Sass/Scss, Esling with Error prevention only,
+Lint on Save, In dedicated config files)*
 
 ## Project setup
 ```
