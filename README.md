@@ -2,7 +2,7 @@
 
 ## Settings
 ***
-_Vue CLI_
+Vue CLI
 
 *Vue 3, Babel, Progressive Web App(PWA), Router(history mode), Sass/Scss, Esling with Error prevention only,
 Lint on Save, In dedicated config files)*
