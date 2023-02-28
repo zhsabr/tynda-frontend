@@ -10,38 +10,26 @@
           </h1>
 
           <div class="mb-4">
-
-            <label class="
-              block
-              uppercase
-              tracking-wide
-              text-xs
-              font-bold
-              mb-2
-              text-gray-100">
-              Атыңыз
-            </label>
-
-            <input class="
-              appearance-none
-              block
-              w-full
-              bg-white
-              text-gray-700
-              border
-              border-gray-400
-              rounded
-              py-3
-              px-4
-              leading-tight
-              focus:outline-none
-              focus:bg-white
-              focus:border-gray-400" type="text">
+            <TextInput
+                label="Электрондық пошта"
+                :label-color="false"
+                placeholder="john@gmail.com"
+                v-model:input="email"
+                input-type="text"
+                error="Тестовая ошибка"
+            />
           </div>
 
-          <span class="text-red-500">
-          Бұл қате туралы хабар
-          </span>
+          <div class="mb-4">
+            <TextInput
+                label="Құпия сөз"
+                :label-color="false"
+                placeholder="password123"
+                v-model:input="password"
+                input-type="text"
+                error="Тестовая ошибка"
+            />
+          </div>
 
           <button
               class="
@@ -70,3 +58,12 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import TextInput from "@/components/global/TextInput";
+import {ref} from 'vue'
+
+let email = ref(null)
+let password = ref(null)
+
+</script>
