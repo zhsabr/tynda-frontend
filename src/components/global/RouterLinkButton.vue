@@ -10,8 +10,9 @@
         px-4
         border
         hover:border-transparent
-        rounded"
-      :class="[color ? 'hover:bg-'+color+'-500 border-'+color+'-500' : '']"
+        rounded
+         "
+      :class="[color ? 'hover:bg-' + color + '-500 border-' + color + '-500' : '']"
       :to="url">
     {{ btnText }}
   </router-link>
